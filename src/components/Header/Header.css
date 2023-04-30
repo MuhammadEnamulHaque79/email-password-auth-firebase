@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+@media screen and (max-width:576px) {
+    .navbar,
+    .right-nav-link,
+    .left-nav-link{
+        display: flex;
+        flex-direction: column;
+        font-style: italic;
+    }
+}
+

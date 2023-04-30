@@ -1,0 +1,25 @@
+.form-container{
+    border: 1px solid cyan;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.form-input-field{
+    border: 1px solid orange;
+    border-radius: 10px;
+    width: 100%;
+    /* margin: 0 auto; */
+    padding: 15px;
+}
+
+.form-input-field input{
+    width: 75%;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    cursor: pointer;
+}
