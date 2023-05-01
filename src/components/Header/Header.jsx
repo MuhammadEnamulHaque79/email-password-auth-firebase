@@ -35,6 +35,8 @@ const Header = () => {
 
             <div className='left-nav-link'>
                 <Link className="btn btn-ghost normal-case text-xl font-thin from-neutral-focus font-mono" to='/'>Home</Link>
+                <Link className="btn btn-ghost normal-case text-xl font-thin from-neutral-focus font-mono" to='/orders'>Orders</Link>
+                <Link className="btn btn-ghost normal-case text-xl font-thin from-neutral-focus font-mono" to='/profile'>Profile</Link>
                 {/* <Link className="btn btn-ghost normal-case text-xl font-thin from-neutral-focus font-mono" to='/login'>Login</Link> */}
                 {
                     user ? 
