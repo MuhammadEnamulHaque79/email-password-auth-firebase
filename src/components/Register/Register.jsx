@@ -7,7 +7,7 @@ import { AuthContext } from '../../providers/AuthProviders';
 
 const Register = () => {
     const {user,createUser} = useContext(AuthContext);
-    console.log(createUser);
+    // console.log(createUser);
 
     // const auth = getAuth(app)
     const [email, setEmil] = useState('');
@@ -25,7 +25,7 @@ const Register = () => {
                 const LoggedUser = result.user;
                 setEmil(email);
                 console.log(LoggedUser);
-                event.target.reset();
+                event.target.reset();//to clear input field;
                 
             })
             .catch((error) => {
